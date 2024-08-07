@@ -1,0 +1,79 @@
+body{
+    margin: 0%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+}
+#bod h2{
+    color: white;
+    background-color: #1f1f1f;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 100;
+}
+#bod{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+    border-radius: 20px;
+    border: 1px grey solid;
+    background-color: #1f1f1f;
+}
+#tot{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+#num{
+    color: white;
+    font-size: 30px;
+    font-family: Roboto,Arial,sans-serif;
+}
+#screen{
+    height: 300px;
+    width: 700px;
+    background-color: #424961;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.die{
+    height: 50px;
+    width: 50px;
+}
+#rollBtn{
+    height: 38px;
+    width: 80px;
+    background-color: #15c;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
